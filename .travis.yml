@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "11.3.0"
+
+branches:
+  only:
+    - dev
+
+install:
+  - npm install
+
+script:
+  - npm run start
+  - npm run build
